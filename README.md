@@ -1,7 +1,7 @@
 # Redux Authentication con Redux Toolkit
 
 Este proyecto implementa autenticación de usuario utilizando **React, Redux Toolkit y Redux Thunk**. Redux Thunk es un middleware para Redux que permite ejecutar operaciones asíncronas, como llamadas a APIs, antes de actualizar el estado global. En este contexto, es esencial para manejar el proceso de autenticación, permitiendo despachar acciones antes y después de recibir una respuesta del servidor.
-A diferencia de la versión anterior de Redux, Redux Toolkit simplifica la estructura eliminando la necesidad de escribir manualmente los tipos de acción y los reducers con `switch-case`.
+A diferencia de la versión del [proyecto anterior de Redux](https://github.com/juanxbini/authentication-redux), Redux Toolkit simplifica la estructura eliminando la necesidad de escribir manualmente los tipos de acción y los reducers con `switch-case`.
 
 La aplicación se conecta a una **[API REST](https://github.com/juanxbini/auth-rest-node)** para manejar la autenticación de usuarios. La API expone el endpoint `POST /api/auth/login`, donde el cuerpo de la petición debe incluir un JSON con las credenciales del usuario:
 
